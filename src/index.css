@@ -1,13 +1,111 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: arial;
+  font-weight: bold;
 }
+
+#title{
+  text-align: center;
+  background: linear-gradient(to bottom, #D1913C 0%, #FFD194 100%);
+  height: 350px;
+  color: white;
+}
+
+#header{
+  padding: 15px;
+  font-size: 90px;
+  line-height: 65px;
+}
+
+#image{
+  width: 25%;
+  margin-top: 50px;
+  border-radius: 20%;
+}
+
+#categories{
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#cat{
+  background-color: grey;
+  margin-top: 30px;
+  padding: 2px 15px;
+  border-radius: 3px 10px 10px 3px;
+}
+
+.fa{
+  color: #D4AF37;
+}
+
+#reviews{
+  display: grid;
+  grid-template-columns: 30px 200px 20px;
+  padding: 15px;
+}
+
+#review{
+  display: flex;
+  justify-content: space-between;
+}
+
+#container {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+#total{
+  text-align: center;
+  margin-top: 10px;
+}
+
+#review-box{
+  margin-top: 10px;
+  border: 1px solid black;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+
+#user{
+  text-align: center;
+  margin-top: 5px;
+}
+
+#features{
+  margin:10px 50px 0 0;
+  display: flex;
+  border: 1px solid black;
+  height: 20%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#features-name{
+  padding: 15px;
+}
+
+#features-value{
+  padding: 15px;
+}
+
+#bars{
+  margin: 0 5px 0 5px;
+}
+
+#features-title{
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#features-header{
+  position: absolute;
+  margin: 0 0 10px 25px;
+}
+
+
